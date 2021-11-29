@@ -1,10 +1,59 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+}
+
+.align-start {
+  text-align: start;
+}
+
+.align-end {
+  text-align: end;
+}
+
+.bloc-info {
+  padding: 0 1vw 0 1vw;
+}
+
+.row-padding {
+  padding: 0 30px 0 30px;
+}
+
+.padding-right-5 {
+  padding-right: 1vw;
+}
+
+.body-text {
+  font-size: 1em;
+}
+
+.body-subtitle {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.boder-grey {
+  border-bottom: 2px solid #b0afaf;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.body-secondary {
+  color: #b0afaf;
+}
+
+.body-primary {
+  color: black;
+  font-weight: bold;
+}
+
+.margin-center {
+  top: 25vh;
+  position: absolute;
 }
 
 @media (prefers-reduced-motion: no-preference) {
